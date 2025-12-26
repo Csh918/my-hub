@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "听书",
-  "usingComponents": {
-    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon"
-  }
-}
