@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.qr.book_manager.mapper.TBookMapper">
+
+    <resultMap id="BaseResultMap" type="cn.qr.book_manager.pojo.TBook">
+            <id property="bookId" column="book_id" />
+            <result property="bookCover" column="book_cover" />
+            <result property="bookTitle" column="book_title" />
+            <result property="bookAuthor" column="book_author" />
+            <result property="bookDate" column="book_date" />
+            <result property="bookPress" column="book_press" />
+            <result property="bookAbs" column="book_abs" />
+            <result property="bookCid" column="book_cid" />
+            <result property="bookMp3" column="book_mp3" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        book_id,book_cover,book_title,book_author,book_date,book_press,
+        book_abs,book_cid,book_mp3
+    </sql>
+</mapper>
